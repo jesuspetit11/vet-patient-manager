@@ -1,3 +1,10 @@
+import Citas from "./classes/Citas.js";
+import UI from "./classes/UI.js";
+
+import {mascotaInput, propietarioInput, telefonoInput, fechaInput, horaInput, sintomasInput, formulario} from "./selectores.js";
+
+
+
 //Instanciamos las clases de forma global
 const ui = new UI();
 const administrarCitas = new Citas();
